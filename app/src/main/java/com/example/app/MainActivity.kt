@@ -5,9 +5,10 @@ import android.os.Bundle
 import android.util.Log
 
 class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+    // здесь можно добавить переменный дефолдные
+    override fun onCreate(s: Bundle?) {
+        super.onCreate(s)
+        setContentView(R.layout.activity_main) //  в это случае "R" означает ресурс, то есть папку res
     }
 
     override fun onStart() {  //  Вызывавет функцию
